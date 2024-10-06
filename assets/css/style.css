@@ -1,0 +1,9 @@
+header{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+svg, img{
+    margin: 0px 20px;
+}
