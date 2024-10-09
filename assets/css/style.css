@@ -1,11 +1,26 @@
 header{
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
+    align-items: center;
 }
 
 svg, img{
-    margin: 0px 20px;
+    /* margin: 0px 15px; */
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navbar-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px 10px;
 }
 
 .display{
@@ -14,17 +29,24 @@ svg, img{
     width: 65%;
 }
 
+.display p{
+    width: 70%;
+}
+
 .display-channel{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 0px 15px;
+    justify-content: space-between;
+    width: 97%;       
 }
 
 .channel-logo{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
+    justify-content: flex-start;
+    gap: 5px;
 }
 main{
     display: flex;
@@ -34,13 +56,28 @@ main{
 .thumb{
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    gap: 10px;
 }
-.sidebar{
-    width: 35%;
+.sidbar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+}
+
+.thumb-description {
+    display: flex;
+    flex-direction: column;
+    justify: space-around;
+    /* gap: 50px; */
 }
 
 p{
     color:#515151;
-    ;
+    
+}
+h4, h3{
+    margin:5px 0px;
+}
+.display-channel p{
+    margin: 0px;
 }
